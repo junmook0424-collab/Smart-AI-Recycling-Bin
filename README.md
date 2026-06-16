@@ -39,13 +39,19 @@ When a user approaches to dispose of waste, the system detects them, wakes up, a
 
 ## 📂 File Structure
 * `smart_bin.py`: The main executable script that integrates the sensors, motor, display, and AI classification.
-* `test_camera.py`: A standalone test script to verify the camera module connection and YOLOv8 object detection performance.
 * `iot_env/`: The Python virtual environment directory containing required dependencies.
 
 ## ⚙️ How to Run
-1. Complete the hardware wiring (sensors, motor, LCD, and camera).
-2. Activate the virtual environment:
-   ```bash
-   source iot_env/bin/activate
+Follow these steps to run the system on your Raspberry Pi:
 
-   python smart_bin.py
+**1. Remote Access**
+Connect to your Raspberry Pi via SSH:
+```bash
+ssh iot@<YOUR_RASPBERRY_PI_IP>
+
+**2. Navigate to Project Directory**
+Move to the folder where smart_bin.py is located:
+```bash
+cd path/to/your/project_folder
+
+
