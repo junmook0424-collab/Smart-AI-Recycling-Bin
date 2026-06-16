@@ -47,3 +47,5 @@ When a user approaches to dispose of waste, the system detects them, wakes up, a
 2. Activate the virtual environment:
    ```bash
    source iot_env/bin/activate
+
+   python smart_bin.py
