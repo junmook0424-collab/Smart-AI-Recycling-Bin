@@ -48,10 +48,22 @@ Follow these steps to run the system on your Raspberry Pi:
 Connect to your Raspberry Pi via SSH:
 ```bash
 ssh iot@<YOUR_RASPBERRY_PI_IP>
+```
 
 **2. Navigate to Project Directory**
 Move to the folder where smart_bin.py is located:
 ```bash
 cd path/to/your/project_folder
+```
 
+**3. Activate Virtual Environmenty**
+Activate the pre-configured environment:
+```bash
+source iot_env/bin/activate
+```
 
+**4. Run the System**
+Execute the main program:
+```bash
+python smart_bin.py
+```
